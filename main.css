@@ -2,6 +2,10 @@
     color: red;
 }
 
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .subheader {
     color: blue;
     font-style: italic;
@@ -20,4 +24,44 @@
 .nav-option {
     color: rgb(15, 23, 31);
     margin-right: 5px;
+}
+
+.home {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+} 
+.home img {
+    max-width: 300px;
+    height: auto;
+    align-self: center;
+}
+.split-section img {
+    max-height: 300px;
+    width: auto;
+    padding: 5px;
+}
+
+.split-section {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+.column li {
+    padding: 4px;
 }
