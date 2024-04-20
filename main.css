@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    background: rgb(120, 108, 108);
+    background: #00008f;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -22,17 +22,18 @@ body {
 }
 
 .nav-option {
-    color: rgb(15, 23, 31);
+    color: white;
     margin-right: 5px;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .home {
-    width: 80%;
-    margin: 0 auto;
     padding-bottom: 5px;
     justify-content: center;
     text-align: center;
-    background-color: bisque;
+    background-color: #b4e1fe;
     display: flex;
     flex-direction: column;
 } 
@@ -55,6 +56,21 @@ body {
     /* align-items: center; */
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-content: center;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: none;
+    background-color: #000000;
+    margin: 10px 0;
+}
+
 .column {
     flex: 1;
     padding: 20px;
@@ -62,6 +78,20 @@ body {
     text-align: center;
     border: 2px solid rgb(0, 0, 0);
 }
-.column li {
+
+.columnA{
+    flex: 1;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.columnA img {
+    max-width: 275px;
+    height: auto;
+    padding: 3px;
+}
+
+li {
     padding: 4px;
 }
